@@ -1,0 +1,287 @@
+D:\MyProgram\SMS\bin\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png
+D:\MyProgram\SMS\bin\images\ui-bg_highlight-hard_70_000000_1x100.png
+D:\MyProgram\SMS\bin\images\ui-bg_highlight-soft_100_deedf7_1x100.png
+D:\MyProgram\SMS\bin\images\ui-bg_highlight-soft_25_ffef8f_1x100.png
+D:\MyProgram\SMS\bin\images\ui-icons_2694e8_256x240.png
+D:\MyProgram\SMS\bin\images\ui-icons_2e83ff_256x240.png
+D:\MyProgram\SMS\bin\images\ui-icons_3d80b3_256x240.png
+D:\MyProgram\SMS\bin\images\ui-icons_72a7cf_256x240.png
+D:\MyProgram\SMS\bin\images\ui-icons_ffffff_256x240.png
+D:\MyProgram\SMS\bin\images\Calendar-ICON.png
+D:\MyProgram\SMS\bin\images\calendar.gif
+D:\MyProgram\SMS\bin\exlTMP\MRF.xlsx
+D:\MyProgram\SMS\bin\exlTMP\REQUESTslip_HE.xlsx
+D:\MyProgram\SMS\bin\exlOUT\MRF.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Medical_Summary.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Medical_Detailed.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Product_Summary.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Delivery_HighEnd.xlsx
+D:\MyProgram\SMS\bin\exlTMP\StockCard_Br.xlsx
+D:\MyProgram\SMS\bin\exlTMP\StockCard_HO.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Near_Expiry.xlsx
+D:\MyProgram\SMS\bin\exlTMP\REQUESTslip_CLN.xlsx
+D:\MyProgram\SMS\bin\exlTMP\REQUESTslip_MNT.xlsx
+D:\MyProgram\SMS\bin\exlTMP\REQUESTslip_OFC.xlsx
+D:\MyProgram\SMS\bin\exlTMP\ProductConsumption.xlsx
+D:\MyProgram\SMS\bin\exlTMP\BotoxFillersReport.xlsx
+D:\MyProgram\SMS\bin\exlTMP\BotoxFillersReportSum.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Patient_Record.xlsx
+D:\MyProgram\SMS\bin\exlTMP\REGCLINICSUPPLIES.xlsx
+D:\MyProgram\SMS\bin\exlTMP\perItem.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Request.xlsx
+D:\MyProgram\SMS\bin\exlTMP\Consumption.xlsx
+D:\MyProgram\SMS\bin\exlTMP\ISSUANCES.xlsx
+D:\MyProgram\SMS\bin\exlTMP\PRF.xlsx
+D:\MyProgram\SMS\bin\exlTMP\ItemTran.xlsx
+D:\MyProgram\SMS\bin\exlTMP\HOConsumption.xlsx
+D:\MyProgram\SMS\bin\exlTMP\perItemProduct.xlsx
+D:\MyProgram\SMS\bin\exlTMP\PivotConso.xlsx
+D:\MyProgram\SMS\bin\exlTMP\RR.xlsx
+D:\MyProgram\SMS\bin\exlTMP\DailyInventoryHO.xlsx
+D:\MyProgram\SMS\bin\DCI_Inventory.dll
+D:\MyProgram\SMS\bin\DCI_Inventory.pdb
+D:\MyProgram\SMS\obj\Debug\DCI_Inventory.dll.licenses
+D:\MyProgram\SMS\obj\Debug\DCI_Inventory.dll
+D:\MyProgram\SMS\obj\Debug\DCI_Inventory.pdb
+D:\MyProgram\SMS\obj\Debug\SMS.dll.licenses
+D:\SMS\bin\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png
+D:\SMS\bin\images\ui-bg_highlight-hard_70_000000_1x100.png
+D:\SMS\bin\images\ui-bg_highlight-soft_100_deedf7_1x100.png
+D:\SMS\bin\images\ui-bg_highlight-soft_25_ffef8f_1x100.png
+D:\SMS\bin\images\ui-icons_2694e8_256x240.png
+D:\SMS\bin\images\ui-icons_2e83ff_256x240.png
+D:\SMS\bin\images\ui-icons_3d80b3_256x240.png
+D:\SMS\bin\images\ui-icons_72a7cf_256x240.png
+D:\SMS\bin\images\ui-icons_ffffff_256x240.png
+D:\SMS\bin\images\upArrow.jpg
+D:\SMS\bin\images\Calendar-ICON.png
+D:\SMS\bin\images\calendar.gif
+D:\SMS\bin\Reports\OfficialReceipt.rpt
+D:\SMS\bin\Reports\IssueSlip.rpt
+D:\SMS\bin\Reports\ORIGOfficialReceipt.rpt
+D:\SMS\bin\Reports\ORHeader.rpt
+D:\SMS\bin\Reports\PostedReceipt.rpt
+D:\SMS\bin\Reports\xReadUnposted.rpt
+D:\SMS\bin\Reports\xReadPosted.rpt
+D:\SMS\bin\Reports\zReadPosted.rpt
+D:\SMS\bin\exlTMP\rptAdjustment.xlsx
+D:\SMS\bin\exlTMP\rptComplimentary.xlsx
+D:\SMS\bin\exlTMP\rptCreditCard.xlsx
+D:\SMS\bin\exlTMP\rptDailyInventory.xlsx
+D:\SMS\bin\exlTMP\rptInvSummary.xlsx
+D:\SMS\bin\exlTMP\rptItemReceived.xlsx
+D:\SMS\bin\exlTMP\rptPRF.xlsx
+D:\SMS\bin\exlTMP\rptSalesDetailed.xlsx
+D:\SMS\bin\exlTMP\rptSalesPerSKU.xlsx
+D:\SMS\bin\exlTMP\rptSalesSummary.xlsx
+D:\SMS\bin\exlTMP\rptSalesSummaryDateRange.xlsx
+D:\SMS\bin\exlTMP\rptStaffPerformance.xlsx
+D:\SMS\bin\exlTMP\rptItemIssuances.xlsx
+D:\SMS\bin\exlTMP\rptSalesTarget.xlsx
+D:\SMS\bin\exlTMP\rptSalesPromo.xlsx
+D:\SMS\bin\exlTMP\rptDepositTransaction.xlsx
+D:\SMS\bin\exlTMP\rptDebitCard.xlsx
+D:\SMS\bin\exlTMP\rptAllBranchPerItem.xlsx
+D:\SMS\bin\exlTMP\rptUnpostedIssuances.xlsx
+D:\SMS\bin\exlTMP\rptSalesPerITEM.xlsx
+D:\SMS\bin\exlTMP\rptInvDetailed.xlsx
+D:\SMS\bin\exlTMP\rptDigitalPayment.xlsx
+D:\SMS\bin\exlTMP\rptSalesBook.xlsx
+D:\SMS\bin\exlTMP\rptVatExemptSales.xlsx
+D:\SMS\bin\exlTMP\rptGiftCode.xlsx
+D:\SMS\bin\exlTMP\rptItemMasterList.xlsx
+D:\SMS\bin\exlTMP\rptItemMovement.xlsx
+D:\SMS\bin\exlTMP\rptAllPayment.xlsx
+D:\SMS\bin\exlTMP\rptDiscountedSales.xlsx
+D:\SMS\bin\exlTMP\rptSalesPerITEMperClient.xlsx
+D:\SMS\bin\exlTMP\rptSalesPerSKUperClient.xlsx
+D:\SMS\bin\exlTMP\rptSalesPerSubCat.xlsx
+D:\SMS\bin\exlTMP\rptStaffPerformanceSumm.xlsx
+D:\SMS\bin\exlTMP\rptNewCustomer.xlsx
+D:\SMS\bin\exlTMP\rptNewCustomerList.xlsx
+D:\SMS\bin\exlTMP\rptConsultation.xlsx
+D:\SMS\bin\exlTMP\rptConsumption.xlsx
+D:\SMS\bin\Reports\IssueSlip.cs
+D:\SMS\bin\Reports\OfficialReceipt.cs
+D:\SMS\bin\Reports\ORHeader.cs
+D:\SMS\bin\Reports\ORIGOfficialReceipt.cs
+D:\SMS\bin\Reports\PostedReceipt.cs
+D:\SMS\bin\Reports\xReadPosted.cs
+D:\SMS\bin\Reports\xReadUnposted.cs
+D:\SMS\bin\Reports\zReadPosted.cs
+D:\SMS\bin\SMS.dll.config
+D:\SMS\bin\SMS.dll
+D:\SMS\bin\SMS.pdb
+D:\SMS\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\SMS\bin\CrystalDecisions.ReportSource.dll
+D:\SMS\bin\CrystalDecisions.Shared.dll
+D:\SMS\bin\CrystalDecisions.Web.dll
+D:\SMS\obj\Debug\SMS.dll.licenses
+D:\SMS\obj\Debug\SMS.dll
+D:\SMS\obj\Debug\SMS.pdb
+C:\PROGRAMS\SMS\bin\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png
+C:\PROGRAMS\SMS\bin\images\ui-bg_highlight-hard_70_000000_1x100.png
+C:\PROGRAMS\SMS\bin\images\ui-bg_highlight-soft_100_deedf7_1x100.png
+C:\PROGRAMS\SMS\bin\images\ui-bg_highlight-soft_25_ffef8f_1x100.png
+C:\PROGRAMS\SMS\bin\images\ui-icons_2694e8_256x240.png
+C:\PROGRAMS\SMS\bin\images\ui-icons_2e83ff_256x240.png
+C:\PROGRAMS\SMS\bin\images\ui-icons_3d80b3_256x240.png
+C:\PROGRAMS\SMS\bin\images\ui-icons_72a7cf_256x240.png
+C:\PROGRAMS\SMS\bin\images\ui-icons_ffffff_256x240.png
+C:\PROGRAMS\SMS\bin\images\upArrow.jpg
+C:\PROGRAMS\SMS\bin\images\Calendar-ICON.png
+C:\PROGRAMS\SMS\bin\images\calendar.gif
+C:\PROGRAMS\SMS\bin\Reports\OfficialReceipt.rpt
+C:\PROGRAMS\SMS\bin\Reports\IssueSlip.rpt
+C:\PROGRAMS\SMS\bin\Reports\ORIGOfficialReceipt.rpt
+C:\PROGRAMS\SMS\bin\Reports\ORHeader.rpt
+C:\PROGRAMS\SMS\bin\Reports\PostedReceipt.rpt
+C:\PROGRAMS\SMS\bin\Reports\xReadUnposted.rpt
+C:\PROGRAMS\SMS\bin\Reports\xReadPosted.rpt
+C:\PROGRAMS\SMS\bin\Reports\zReadPosted.rpt
+C:\PROGRAMS\SMS\bin\exlTMP\rptAdjustment.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptComplimentary.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptCreditCard.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDailyInventory.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptInvSummary.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptItemReceived.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptPRF.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesDetailed.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPerSKU.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesSummary.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesSummaryDateRange.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptStaffPerformance.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptItemIssuances.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesTarget.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPromo.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDepositTransaction.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDebitCard.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptAllBranchPerItem.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptUnpostedIssuances.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPerITEM.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptInvDetailed.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDigitalPayment.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesBook.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptVatExemptSales.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptGiftCode.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptItemMasterList.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptItemMovement.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptAllPayment.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDiscountedSales.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPerITEMperClient.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPerSKUperClient.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSalesPerSubCat.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptStaffPerformanceSumm.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptNewCustomer.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptNewCustomerList.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptConsultation.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptConsumption.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptCustomerCount.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptInactiveCustomerList.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptNewCustomerInValue.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptSessionBalance.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptCustomerCountByGender.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptDrsWithProduct.xlsx
+C:\PROGRAMS\SMS\bin\exlTMP\rptCustomerType.xlsx
+C:\PROGRAMS\SMS\bin\Reports\IssueSlip.cs
+C:\PROGRAMS\SMS\bin\Reports\OfficialReceipt.cs
+C:\PROGRAMS\SMS\bin\Reports\ORHeader.cs
+C:\PROGRAMS\SMS\bin\Reports\ORIGOfficialReceipt.cs
+C:\PROGRAMS\SMS\bin\Reports\PostedReceipt.cs
+C:\PROGRAMS\SMS\bin\Reports\xReadPosted.cs
+C:\PROGRAMS\SMS\bin\Reports\xReadUnposted.cs
+C:\PROGRAMS\SMS\bin\Reports\zReadPosted.cs
+C:\PROGRAMS\SMS\bin\SMS.dll.config
+C:\PROGRAMS\SMS\bin\SMS.dll
+C:\PROGRAMS\SMS\bin\SMS.pdb
+C:\PROGRAMS\SMS\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\PROGRAMS\SMS\bin\CrystalDecisions.ReportSource.dll
+C:\PROGRAMS\SMS\bin\CrystalDecisions.Shared.dll
+C:\PROGRAMS\SMS\bin\CrystalDecisions.Web.dll
+C:\PROGRAMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\PROGRAMS\SMS\obj\Debug\SMS.dll.licenses
+C:\PROGRAMS\SMS\obj\Debug\SMS.dll
+C:\PROGRAMS\SMS\obj\Debug\SMS.pdb
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-bg_highlight-hard_70_000000_1x100.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-bg_highlight-soft_100_deedf7_1x100.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-bg_highlight-soft_25_ffef8f_1x100.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-icons_2694e8_256x240.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-icons_2e83ff_256x240.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-icons_3d80b3_256x240.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-icons_72a7cf_256x240.png
+C:\SOURCE CODE\SMS\SMS\bin\images\ui-icons_ffffff_256x240.png
+C:\SOURCE CODE\SMS\SMS\bin\images\upArrow.jpg
+C:\SOURCE CODE\SMS\SMS\bin\images\Calendar-ICON.png
+C:\SOURCE CODE\SMS\SMS\bin\images\calendar.gif
+C:\SOURCE CODE\SMS\SMS\bin\Reports\OfficialReceipt.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\IssueSlip.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\ORIGOfficialReceipt.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\ORHeader.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\PostedReceipt.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\xReadUnposted.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\xReadPosted.rpt
+C:\SOURCE CODE\SMS\SMS\bin\Reports\zReadPosted.rpt
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptAdjustment.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptComplimentary.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptCreditCard.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDailyInventory.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptInvSummary.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptItemReceived.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptPRF.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesDetailed.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPerSKU.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesSummary.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesSummaryDateRange.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptStaffPerformance.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptItemIssuances.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesTarget.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPromo.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDepositTransaction.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDebitCard.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptAllBranchPerItem.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptUnpostedIssuances.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPerITEM.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptInvDetailed.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDigitalPayment.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesBook.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptVatExemptSales.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptGiftCode.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptItemMasterList.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptItemMovement.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptAllPayment.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDiscountedSales.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPerITEMperClient.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPerSKUperClient.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSalesPerSubCat.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptStaffPerformanceSumm.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptNewCustomer.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptNewCustomerList.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptConsultation.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptConsumption.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptCustomerCount.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptInactiveCustomerList.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptNewCustomerInValue.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptSessionBalance.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptCustomerCountByGender.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptDrsWithProduct.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\exlTMP\rptCustomerType.xlsx
+C:\SOURCE CODE\SMS\SMS\bin\Reports\IssueSlip.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\OfficialReceipt.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\ORHeader.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\ORIGOfficialReceipt.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\PostedReceipt.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\xReadPosted.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\xReadUnposted.cs
+C:\SOURCE CODE\SMS\SMS\bin\Reports\zReadPosted.cs
+C:\SOURCE CODE\SMS\SMS\bin\SMS.dll.config
+C:\SOURCE CODE\SMS\SMS\bin\SMS.dll
+C:\SOURCE CODE\SMS\SMS\bin\SMS.pdb
+C:\SOURCE CODE\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\SOURCE CODE\SMS\SMS\obj\Debug\SMS.dll.licenses
+C:\SOURCE CODE\SMS\SMS\obj\Debug\SMS.dll
+C:\SOURCE CODE\SMS\SMS\obj\Debug\SMS.pdb
+C:\SOURCE CODE\SMS\SMS\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\SOURCE CODE\SMS\SMS\bin\CrystalDecisions.ReportSource.dll
+C:\SOURCE CODE\SMS\SMS\bin\CrystalDecisions.Shared.dll
+C:\SOURCE CODE\SMS\SMS\bin\CrystalDecisions.Web.dll

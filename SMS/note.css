@@ -1,0 +1,15 @@
+﻿/*NOTE ON PO RECEIVED*/
+/*
+TABLE AFFECTED UPON ENCODING OF PR = vPurchRequisition_Posted       STATUS=0
+TABLE AFFECTED UPON POSTING OF PR =    vPurchRequisition_Posted     STATUS=1
+
+TABLE AFFECTED UPON ENCODING OF PO =     vItemReceived_Unposted
+
+TABLE AFFECTED UPON POSTING OF PO(QUARANTINE) =     vItemQuarantined/vPurchRequisition_Detailed/ UPDATE vPurchRequisition_Posted (qtyreceived column)
+
+    20180831
+    cHANGE ITEM INFO MODULE
+
+
+    NOTE: TRANISSUANCE
+*/

@@ -1,0 +1,449 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SMS.SiteMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.0)" />
+
+    <title>Sales Monitoring System</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Our Custom CSS -->
+    <link href="css/cssMaster.css" rel="stylesheet" />
+    <link href="jquery-ui.css" rel="stylesheet" />
+
+            
+
+    
+     <script type="text/javascript">
+         var oldgridcolor;
+         function SetMouseOver(element) {
+             element.style.color = 'blue';
+             element.style.cursor = 'pointer';
+             element.style.textDecoration = 'underline';
+         }
+         function SetMouseOut(element) {
+             element.style.color = 'black';
+             element.style.textDecoration = 'none';
+
+         }
+</script>
+<style type="text/css">
+        </style>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+<style type="text/css">
+    .dropdown-menu {
+        
+    }   
+
+    .hiddencol { display: none; }
+
+    .ff {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:12px;
+        line-height: 2.42857143;
+
+            
+    }
+    
+</style>
+
+    <style>
+        /* You need to have this style to remove the Underline at normal state*/
+
+        .panel {
+            background-image:none;
+            background: transparent;
+            font-size: 11px;
+            margin-bottom:1px;
+            padding-bottom:0px;
+        }
+
+         .panel:active  {
+            background: #4285F4;
+        }
+
+        panel:active.collapse {
+            background: #4285F4;
+        }
+
+  
+    </style>
+
+
+    <style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" style="display:none;" title="Go to top">Back to Top</button>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+           <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h4>System Menu</h4>
+                </div>
+
+               <ul class="nav nav-stacked" id="accordion1" style="height: 550px; overflow: auto;">
+
+                        <li class="panel active">
+                            <a href="#pageSubmenu3" data-toggle="collapse" style="font-size:large;" data-parent="#accordion1"><i class="glyphicon glyphicon-inbox"></i>&nbsp;&nbsp;Transactions</a>
+                              <ul  class="collapse list-unstyled" id="pageSubmenu3">
+                                    
+                                    
+                                    <li id="BRDelivery" runat="server"><a href="Deliveries.aspx">&nbsp;&nbsp;Delivery</a></li>
+                                    <li id="HOIssuance" runat="server" style="display:none;"><a href="Issuance.aspx">&nbsp;&nbsp;Issuance</a></li>
+                                    <li id="HOCreditCardTagging" runat="server"><a href="CreditCardTagging.aspx">&nbsp;&nbsp;Credit Card Tagging</a></li>
+                                    <li><a href="PRF.aspx">&nbsp;&nbsp;PRF</a></li>
+                                    <li><a href="Complimentary.aspx">&nbsp;&nbsp;Complimentary</a></li>
+                                    <li><a href="RecordComplimentary.aspx">&nbsp;&nbsp;Complimentary with Consumable Amount</a></li>
+                                    <li><a href="AddNewCustomer.aspx">&nbsp;&nbsp;Add New Customer</a></li>
+                                    <li><a href="NSConversion.aspx">&nbsp;&nbsp;Singles/Set Conversion</a></li>
+                                    <li><a href="Adjustment.aspx">&nbsp;&nbsp;Adjustment</a></li>
+                                    <li id="BRSalesReturn" runat="server"><a href="SalesReturn.aspx">&nbsp;&nbsp;Sales Return</a></li>
+                                    <li style="margin-bottom:15px; display:none;"><a href="SalesBook.aspx">&nbsp;&nbsp;Sales Book</a></li>
+                                    
+
+                                     <li id="BRMonthlyPosting" runat="server" style="font-size:medium;"><a href="ProcessEndOfDay.aspx">&nbsp;&nbsp;Process End Of Day</a></li>
+                              </ul>
+
+              
+                        </li>
+                   
+
+
+                    <li class="panel active"> 
+                        <a href="#pageSubmenu" data-toggle="collapse" style="font-size:large;" data-parent="#accordion1"><i class="glyphicon glyphicon-file"></i>&nbsp;&nbsp;Reports</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                           
+                            
+                            <li><a href="DailySalesSummary.aspx">&nbsp;&nbsp;Daily Sales - Summary</a></li>
+                            <li><a href="DailySalesDetailed.aspx">&nbsp;&nbsp;Daily Sales - Detailed</a></li>
+                            <li><a href="CustomerCount.aspx">&nbsp;&nbsp;Customers Count</a></li>
+                            <li><a href="NewCustomersInValue.aspx">&nbsp;&nbsp;New Customers In Value</a></li>
+                            
+                            <li><a href="CountNewCustomerByGender.aspx">&nbsp;&nbsp;Customers Count - Gender</a></li>
+                             <li><a href="SalesPerCategory.aspx">&nbsp;&nbsp;Sales - Sub Category</a></li>
+                            <li id="HOVATExempted" runat="server" ><a href="ReportVATExempted.aspx">&nbsp;&nbsp;VAT Exempt Sales</a></li>
+                            <li><a href="DepositTransactions.aspx">&nbsp;&nbsp;Report - Deposits</a></li>
+                            <li><a href="DailyInventory.aspx">&nbsp;&nbsp;Daily Inventory</a></li>
+                            
+                            
+                            <li><a href="ReportAllPaymentType.aspx">&nbsp;&nbsp;Report - All Type of Payment</a></li>
+                            <li><a href="ReportCash.aspx">&nbsp;&nbsp;Report - Cash</a></li>
+                            <li><a href="ListCreditCard.aspx">&nbsp;&nbsp;Report - Credit Card</a></li>
+                            <li><a href="ReportDebitCard.aspx">&nbsp;&nbsp;Report - Debit Card</a></li>
+                            <li><a href="ReportGC.aspx">&nbsp;&nbsp;Report - Gift Check</a></li>
+                            <li><a href="ReportDigitalPayment.aspx">&nbsp;&nbsp;Report - Digital Payment</a></li>
+                            <li><a href="ReportGiftCode.aspx">&nbsp;&nbsp;Report - Gift Code</a></li>
+                            <li><a href="DiscountedSales.aspx">&nbsp;&nbsp;Report - Discounted Sales</a></li>
+                            <li id="BRrptSalesReturn" runat="server"><a href="ReportSalesReturn.aspx">&nbsp;&nbsp;Report - Sales Return</a></li>
+                            
+                            <li><a href="SalesPerSKU.aspx">&nbsp;&nbsp;Sales - Per SKU</a></li>
+                            <li><a href="SalesPromo.aspx">&nbsp;&nbsp;Sales - Promo</a></li>
+                            <li><a href="ItemReceived.aspx">&nbsp;&nbsp;Report - Delivery</a></li>
+                            <li><a href="ReportIssuances.aspx">&nbsp;&nbsp;Report - Issuances</a></li>
+                            <li><a href="rptActualConsumptions.aspx">&nbsp;&nbsp;Report - Consumptions</a></li>
+                            <li><a href="rptSessionBalance.aspx">&nbsp;&nbsp;Report - Sessions Balance</a></li>
+                            
+                            <li><a href="ListOfPRF.aspx">&nbsp;&nbsp;Report PRF</a></li>
+                            <li><a href="ListOfComplimentary.aspx">&nbsp;&nbsp;Report - Complimentary</a></li>
+                            <li><a href="ListOfAdjusment.aspx">&nbsp;&nbsp;Report - Adjustment</a></li>
+                            <li><a href="ItemMovement.aspx">&nbsp;&nbsp;Item Movement</a></li>
+                            <li><a href="ClientReport.aspx">&nbsp;&nbsp;Report - Customers</a></li>
+                            <li style="display:none;"><a href="NewCustomersCount.aspx">&nbsp;&nbsp;New Customers Count</a></li>
+                            
+                            <li><a href="DRsWithProductSales.aspx">&nbsp;&nbsp;Sales - Drs. With Product Sales</a></li>                            
+                            <li><a href="rptConsultation.aspx">&nbsp;&nbsp;Report - Consultation</a></li>                            
+                            <li><a href="StaffPerformance.aspx">&nbsp;&nbsp;Staff Performance</a></li>
+                            <li><a href="TransactionQuery.aspx">&nbsp;&nbsp;Transaction Query</a></li>
+                            <li><a href="ItemMasterList.aspx">&nbsp;&nbsp;Item Master List</a></li>
+                            
+                            <li style="display:none;"><a href="OnGoing.aspx">&nbsp;&nbsp;Branch Daily Inventory</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="panel active"> 
+                        <a href="#pageSubmenu1" data-toggle="collapse"  style="font-size:large;" data-parent="#accordion1"><i class="glyphicon glyphicon-wrench"></i>&nbsp;&nbsp;Setup</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu1">
+                            <li style="font-size:medium;"><a href="MonthlyPosting.aspx">&nbsp;&nbsp;Monthly Posting</a></li>
+                            <li id="HOAddNewItem" runat="server"><a href="AddNewItem.aspx">&nbsp;&nbsp;Add New Item</a></li>
+                            <li id="HOSetupDiscount" runat="server"><a href="SetupDiscount.aspx">&nbsp;&nbsp;Add Discount</a></li>
+                            <li id="HOAddPromoItem" runat="server"><a href="AddPromoItem.aspx">&nbsp;&nbsp;Add Promo Item</a></li>
+                            <li id="HOSpecialDiscount" runat="server"><a href="SpecialDiscount.aspx">&nbsp;&nbsp;Activate Special Discount</a></li>
+                            <li id="HOSetupSalesTarget" runat="server"><a href="SetupSalesTarget.aspx">&nbsp;&nbsp;Sales Target</a></li>
+                            <li id="EmployeeSetup" runat="server"><a href="setupEmployee.aspx">&nbsp;&nbsp;Employee</a></li>
+                            <li id="AdminSetupItem" runat="server"><a href="setupItem.aspx">&nbsp;&nbsp;Edit Item</a></li>
+                            <li id="AddItemToDiscount" runat="server"><a href="AddItemToDiscount.aspx">&nbsp;&nbsp;Add Item To Discount</a></li>
+                            
+                            <%--<li><a href="SetupNewUser.aspx"><i class="fa fa-child"></i>&nbsp;&nbsp;System User</a></li>--%>
+                            
+                        </ul>
+                    </li>
+               
+
+                    <li class="panel active" style="display:none;"> 
+                            <a href="#pageSubmenu2" data-toggle="collapse" data-parent="#accordion1">Admin Page</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu2">
+                                <li><a href="OnGoing.aspx"><i class="fa fa-user-md"></i>&nbsp;&nbsp;User's Info</a></li>
+                            </ul>
+                    </li>
+
+                  
+
+
+            </ul>
+
+                
+            </nav>
+
+            <!-- Page Content Holder -->
+
+
+            <div id="content">
+               <nav class="navbar navbar-default" style="margin-bottom:15px;"><%-- style="background-color:#3faff8;"--%>
+                    <div class="container-fluid" >
+
+                        <div class="navbar-header" >
+                            <button type="button" id="sidebarCollapse" class="navbar-btn active"  style="background-color:#3faff8;">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <span style="font-size:18px; font-weight:300; text-shadow: 4px 4px 4px white; font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;">Sales Monitoring System</span>
+                           
+                        </div>
+                         
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right"">
+                      
+                                 <li>
+                                    <a href="HomePage.aspx" style="background-color:transparent; border:none; padding-bottom:2px;  padding-top:32px; color:white;"><i class="glyphicon glyphicon-home"></i><span>&nbsp;&nbsp;Home Page</span></a>
+                                </li>
+                                <li id="EncodeSales" runat="server">
+                                    <a href="EncodeSales.aspx" style="background-color:transparent; border:none; padding-bottom:2px;  padding-top:32px; color:white;"><i class="fa fa-money"></i>&nbsp;&nbsp;Encode Sales
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="InventoryReports.aspx" style="background-color:transparent; border:none; padding-bottom:2px;  padding-top:32px; color:white;"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Inventory</a>
+
+                                </li>
+                                <li id="BranchTarget" runat="server">
+                                    <a href="SalesTarget.aspx" style="background-color:transparent; border:none; padding-bottom:2px;  padding-top:32px; color:white;"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Sales Target</a>
+
+                                </li>
+                                
+
+                                 <li><a href="#"  style="color:white;"><asp:Label ID="lblUserFullName" runat="server" ForeColor="#996600" Text=""></asp:Label></a>
+                                </li>
+                                
+                                <li> <a href="LoginPage.aspx" data-toggle="control-sidebar tooltip" class="btn btn-secondary" data-placement="bottom" title="Sign Out" style="color:white;"><i class="glyphicon glyphicon-log-out"></i></a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                       
+                   </asp:ContentPlaceHolder>
+                  <br />
+                  <br />
+                <br />
+            </div>
+
+         <%--    <span id="back-to-top"><img src='images/upArrow.jpg'/></span>--%>
+
+        </div>
+
+
+                
+<%--<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>--%>
+
+
+
+         <!-- jQuery CDN -->
+         <%--<script src="jQuery/jquery-1.12.0.min.js"></script>--%>
+        
+        <script src="jquery-ui.min.js"></script>
+        <script src="external/jquery/jquery.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="Bootstrap/bootstrap.min.js"></script>
+
+        <!-- Personal -->
+         <script src="JavaScript.js"></script>
+        <script src="jquery-ui.js"></script>
+
+
+<script type="text/javascript">
+    //$(function () {
+    //    $('.panel').click(function () {
+    //        $(this).toggleClass('on');
+    //    })
+    //});
+</script>
+
+
+
+
+<script type="text/javascript">
+    function ShowIDLEMsg() {
+        $(function () {
+            $("#messageIDLE").dialog({
+                title: "MRP System",
+                width: '335px',
+                buttons: {
+                    Close: function () {
+                        $(this).dialog('close');
+                        window.location = "LoginPage.aspx";
+                    }
+                },
+                modal: true
+            });
+        });
+    }
+</script>
+
+<div id="messageIDLE" style="display:none;">
+    <%--<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>--%>
+                <asp:Label Text="" ID="lblMsgIDLE" runat="server" />
+            <%--</ContentTemplate>
+    </asp:UpdatePanel>--%>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+    $("#button").button();
+
+    $(".buttonCS").button();
+
+
+    $("#radioset").buttonset();
+    $("#tabs").tabs();
+   
+
+
+    $("#datepicker").datepicker({
+        inline: true
+    });
+
+    $("#menu").menu();
+
+    // Hover states on the static widgets
+    $("#dialog-link, #icons li").hover(
+	function () {
+	    $(this).addClass("ui-state-hover");
+	},
+	function () {
+	    $(this).removeClass("ui-state-hover");
+	}
+
+
+);
+
+    $(function () {
+        $('.dateTxt2').datepicker({ maxDate: new Date, minDate: new Date(2007, 6, 12) });
+    });
+
+    $(function () {
+        $('.datePOS').datepicker({ maxDate: -1, minDate: new Date(2007, 6, 12), dateFormat: 'yymmdd' });
+    });
+
+    $(function () {
+        $('.datePOS2').datepicker({ maxDate: -1, minDate: new Date(2007, 6, 12), dateFormat: 'yymmdd' });
+    });
+
+    $(function () {
+        $('.dateTxt').datepicker({ maxDate: new Date, minDate: new Date(2007, 6, 12) });
+    });
+
+    $(function () {
+        $('.dateTxtToo').datepicker({ minDate: 0 });
+    });
+
+    $(function () {
+        $('.dateTxtYear').datepicker({
+            minDate: 0,
+            changeMonth: true,
+            changeYear: true
+        });
+    });
+
+</script>
+
+
+        
+        <script>
+            
+            var mybutton = document.getElementById("myBtn");
+
+            
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+</script>
+
+
+</form>
+</body>
+</html>

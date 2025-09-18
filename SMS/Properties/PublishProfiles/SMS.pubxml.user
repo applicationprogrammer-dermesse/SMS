@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Publish\SMS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddEmployee.aspx">
+      <publishTime>02/08/2021 14:13:01</publishTime>
+    </File>
+    <File Include="AddItemToDiscount.aspx">
+      <publishTime>09/02/2024 10:32:26</publishTime>
+    </File>
+    <File Include="AddNewCustomer.aspx">
+      <publishTime>07/04/2024 09:29:14</publishTime>
+    </File>
+    <File Include="AddNewItem.aspx">
+      <publishTime>03/22/2024 14:41:28</publishTime>
+    </File>
+    <File Include="AddPromoItem.aspx">
+      <publishTime>03/22/2024 14:41:44</publishTime>
+    </File>
+    <File Include="Adjustment.aspx">
+      <publishTime>02/08/2021 08:17:48</publishTime>
+    </File>
+    <File Include="AdjustmentHO.aspx">
+      <publishTime>09/20/2019 13:07:18</publishTime>
+    </File>
+    <File Include="AdjustmentListForPosting.aspx">
+      <publishTime>02/02/2021 15:28:46</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>04/21/2015 10:19:38</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/17/2014 06:34:12</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>04/18/2017 04:39:20</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>04/18/2017 04:39:22</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>04/18/2017 04:39:22</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Web.dll">
+      <publishTime>04/18/2017 04:39:22</publishTime>
+    </File>
+    <File Include="bin/DCI_Inventory.dll">
+      <publishTime>02/01/2021 16:13:20</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>06/22/2015 12:33:54</publishTime>
+    </File>
+    <File Include="bin/exlOUT/MRF.xlsx">
+      <publishTime>03/22/2016 08:00:48</publishTime>
+    </File>
+    <File Include="bin/exlTMP/BotoxFillersReport.xlsx">
+      <publishTime>05/18/2017 09:06:38</publishTime>
+    </File>
+    <File Include="bin/exlTMP/BotoxFillersReportSum.xlsx">
+      <publishTime>05/18/2017 09:15:08</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Consumption.xlsx">
+      <publishTime>06/14/2019 13:50:50</publishTime>
+    </File>
+    <File Include="bin/exlTMP/DailyInventoryHO.xlsx">
+      <publishTime>10/28/2020 09:38:00</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Delivery_HighEnd.xlsx">
+      <publishTime>03/23/2016 09:03:50</publishTime>
+    </File>
+    <File Include="bin/exlTMP/HOConsumption.xlsx">
+      <publishTime>09/27/2019 12:01:36</publishTime>
+    </File>
+    <File Include="bin/exlTMP/ISSUANCES.xlsx">
+      <publishTime>09/16/2019 13:28:36</publishTime>
+    </File>
+    <File Include="bin/exlTMP/ItemTran.xlsx">
+      <publishTime>09/19/2019 13:59:42</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Medical_Detailed.xlsx">
+      <publishTime>07/06/2017 13:56:52</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Medical_Summary.xlsx">
+      <publishTime>05/24/2019 11:43:14</publishTime>
+    </File>
+    <File Include="bin/exlTMP/MRF.xlsx">
+      <publishTime>03/14/2016 13:40:28</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Near_Expiry.xlsx">
+      <publishTime>06/23/2016 11:09:56</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Patient_Record.xlsx">
+      <publishTime>05/18/2017 09:12:14</publishTime>
+    </File>
+    <File Include="bin/exlTMP/perItem.xlsx">
+      <publishTime>04/26/2019 09:50:28</publishTime>
+    </File>
+    <File Include="bin/exlTMP/perItemProduct.xlsx">
+      <publishTime>01/28/2020 13:29:54</publishTime>
+    </File>
+    <File Include="bin/exlTMP/PivotConso.xlsx">
+      <publishTime>02/17/2020 14:09:28</publishTime>
+    </File>
+    <File Include="bin/exlTMP/PRF.xlsx">
+      <publishTime>09/16/2019 13:32:26</publishTime>
+    </File>
+    <File Include="bin/exlTMP/ProductConsumption.xlsx">
+      <publishTime>04/12/2017 14:12:52</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Product_Summary.xlsx">
+      <publishTime>03/23/2016 08:30:28</publishTime>
+    </File>
+    <File Include="bin/exlTMP/REGCLINICSUPPLIES.xlsx">
+      <publishTime>05/25/2017 13:17:00</publishTime>
+    </File>
+    <File Include="bin/exlTMP/Request.xlsx">
+      <publishTime>04/26/2019 09:30:54</publishTime>
+    </File>
+    <File Include="bin/exlTMP/REQUESTslip_CLN.xlsx">
+      <publishTime>09/09/2016 16:26:46</publishTime>
+    </File>
+    <File Include="bin/exlTMP/REQUESTslip_HE.xlsx">
+      <publishTime>03/23/2016 13:58:56</publishTime>
+    </File>
+    <File Include="bin/exlTMP/REQUESTslip_MNT.xlsx">
+      <publishTime>09/09/2016 09:41:38</publishTime>
+    </File>
+    <File Include="bin/exlTMP/REQUESTslip_OFC.xlsx">
+      <publishTime>09/09/2016 09:41:12</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptAdjustment.xlsx">
+      <publishTime>01/20/2021 16:55:52</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptAllBranchPerItem.xlsx">
+      <publishTime>03/12/2021 08:29:10</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptAllPayment.xlsx">
+      <publishTime>11/23/2021 08:05:30</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptComplimentary.xlsx">
+      <publishTime>11/14/2022 08:11:04</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptConsultation.xlsx">
+      <publishTime>07/20/2022 09:30:50</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptConsumption.xlsx">
+      <publishTime>08/17/2022 13:15:36</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptCreditCard.xlsx">
+      <publishTime>03/05/2024 14:45:20</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptCustomerCount.xlsx">
+      <publishTime>11/13/2024 14:56:56</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptCustomerCountByGender.xlsx">
+      <publishTime>07/16/2024 13:32:10</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptCustomerType.xlsx">
+      <publishTime>11/18/2024 10:02:04</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDailyInventory.xlsx">
+      <publishTime>01/28/2021 13:46:08</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDebitCard.xlsx">
+      <publishTime>08/02/2021 08:31:34</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDepositTransaction.xlsx">
+      <publishTime>08/02/2021 08:31:50</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDigitalPayment.xlsx">
+      <publishTime>09/08/2021 15:20:10</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDiscountedSales.xlsx">
+      <publishTime>06/27/2024 14:05:58</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptDrsWithProduct.xlsx">
+      <publishTime>07/22/2024 15:57:12</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptGiftCode.xlsx">
+      <publishTime>09/09/2021 07:38:02</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptInactiveCustomerList.xlsx">
+      <publishTime>12/27/2022 09:58:22</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptInvDetailed.xlsx">
+      <publishTime>12/03/2021 07:39:34</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptInvSummary.xlsx">
+      <publishTime>01/27/2021 08:52:48</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptItemIssuances.xlsx">
+      <publishTime>02/11/2021 15:33:08</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptItemMasterList.xlsx">
+      <publishTime>04/24/2024 08:13:08</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptItemMovement.xlsx">
+      <publishTime>11/16/2021 09:39:32</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptItemReceived.xlsx">
+      <publishTime>08/02/2021 08:32:56</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptNewCustomer.xlsx">
+      <publishTime>07/07/2022 09:07:36</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptNewCustomerInValue.xlsx">
+      <publishTime>01/22/2025 11:41:12</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptNewCustomerList.xlsx">
+      <publishTime>07/20/2022 07:59:48</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptPRF.xlsx">
+      <publishTime>01/27/2021 14:45:40</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesBook.xlsx">
+      <publishTime>08/05/2021 07:43:18</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesDetailed.xlsx">
+      <publishTime>06/27/2024 13:13:02</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPerITEM.xlsx">
+      <publishTime>12/20/2024 17:17:22</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPerITEMperClient.xlsx">
+      <publishTime>02/22/2022 13:31:56</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPerSKU.xlsx">
+      <publishTime>12/20/2024 17:17:26</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPerSKUperClient.xlsx">
+      <publishTime>02/22/2022 13:31:46</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPerSubCat.xlsx">
+      <publishTime>05/12/2022 14:57:16</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesPromo.xlsx">
+      <publishTime>03/22/2024 15:39:16</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesSummary.xlsx">
+      <publishTime>07/01/2021 14:00:24</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesSummaryDateRange.xlsx">
+      <publishTime>07/01/2021 14:01:14</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSalesTarget.xlsx">
+      <publishTime>12/06/2021 15:09:40</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptSessionBalance.xlsx">
+      <publishTime>06/27/2024 10:57:46</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptStaffPerformance.xlsx">
+      <publishTime>01/09/2025 16:34:04</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptStaffPerformanceSumm.xlsx">
+      <publishTime>03/19/2024 11:02:54</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptUnpostedIssuances.xlsx">
+      <publishTime>08/02/2021 08:34:28</publishTime>
+    </File>
+    <File Include="bin/exlTMP/rptVatExemptSales.xlsx">
+      <publishTime>12/20/2021 16:08:52</publishTime>
+    </File>
+    <File Include="bin/exlTMP/RR.xlsx">
+      <publishTime>11/05/2020 12:42:30</publishTime>
+    </File>
+    <File Include="bin/exlTMP/StockCard_Br.xlsx">
+      <publishTime>06/09/2016 13:54:58</publishTime>
+    </File>
+    <File Include="bin/exlTMP/StockCard_HO.xlsx">
+      <publishTime>06/09/2016 14:59:10</publishTime>
+    </File>
+    <File Include="bin/images/Calendar-ICON.png">
+      <publishTime>08/10/2015 11:13:00</publishTime>
+    </File>
+    <File Include="bin/images/calendar.gif">
+      <publishTime>08/10/2015 11:17:22</publishTime>
+    </File>
+    <File Include="bin/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-bg_highlight-hard_70_000000_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-bg_highlight-soft_100_deedf7_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-bg_highlight-soft_25_ffef8f_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-icons_2694e8_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="bin/images/ui-icons_3d80b3_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-icons_72a7cf_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="bin/images/ui-icons_ffffff_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="bin/images/upArrow.jpg">
+      <publishTime>02/08/2021 17:00:12</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>03/15/2009 12:23:10</publishTime>
+    </File>
+    <File Include="bin/Reports/IssueSlip.cs">
+      <publishTime>05/16/2025 09:49:36</publishTime>
+    </File>
+    <File Include="bin/Reports/IssueSlip.rpt">
+      <publishTime>03/09/2021 13:23:38</publishTime>
+    </File>
+    <File Include="bin/Reports/OfficialReceipt.cs">
+      <publishTime>07/16/2021 13:48:00</publishTime>
+    </File>
+    <File Include="bin/Reports/OfficialReceipt.rpt">
+      <publishTime>07/16/2021 13:47:56</publishTime>
+    </File>
+    <File Include="bin/Reports/ORHeader.cs">
+      <publishTime>07/23/2021 07:59:28</publishTime>
+    </File>
+    <File Include="bin/Reports/ORHeader.rpt">
+      <publishTime>07/23/2021 07:59:26</publishTime>
+    </File>
+    <File Include="bin/Reports/ORIGOfficialReceipt.cs">
+      <publishTime>03/10/2021 08:41:04</publishTime>
+    </File>
+    <File Include="bin/Reports/ORIGOfficialReceipt.rpt">
+      <publishTime>03/10/2021 08:41:04</publishTime>
+    </File>
+    <File Include="bin/Reports/PaymentDetail.cs">
+      <publishTime>03/10/2021 08:43:57</publishTime>
+    </File>
+    <File Include="bin/Reports/PaymentDetail.rpt">
+      <publishTime>03/10/2021 08:43:57</publishTime>
+    </File>
+    <File Include="bin/Reports/PostedReceipt.cs">
+      <publishTime>08/10/2021 08:06:36</publishTime>
+    </File>
+    <File Include="bin/Reports/PostedReceipt.rpt">
+      <publishTime>08/10/2021 08:06:34</publishTime>
+    </File>
+    <File Include="bin/Reports/xReadPosted.cs">
+      <publishTime>08/09/2021 16:06:36</publishTime>
+    </File>
+    <File Include="bin/Reports/xReadPosted.rpt">
+      <publishTime>08/09/2021 16:06:34</publishTime>
+    </File>
+    <File Include="bin/Reports/xReadUnposted.cs">
+      <publishTime>03/16/2021 08:32:08</publishTime>
+    </File>
+    <File Include="bin/Reports/xReadUnposted.rpt">
+      <publishTime>03/16/2021 08:32:08</publishTime>
+    </File>
+    <File Include="bin/Reports/zReadPosted.cs">
+      <publishTime>08/06/2021 13:49:28</publishTime>
+    </File>
+    <File Include="bin/Reports/zReadPosted.rpt">
+      <publishTime>08/06/2021 13:49:28</publishTime>
+    </File>
+    <File Include="bin/Reports/zReadUnposted.cs">
+      <publishTime>03/23/2021 10:10:32</publishTime>
+    </File>
+    <File Include="bin/Reports/zReadUnposted.rpt">
+      <publishTime>03/23/2021 10:10:29</publishTime>
+    </File>
+    <File Include="bin/SMS.dll">
+      <publishTime>05/16/2025 13:41:33</publishTime>
+    </File>
+    <File Include="Bootstrap/bootstrap.min.css">
+      <publishTime>07/18/2018 11:46:44</publishTime>
+    </File>
+    <File Include="Bootstrap/bootstrap.min.js">
+      <publishTime>07/18/2018 11:42:46</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap-theme.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap.min.css">
+      <publishTime>03/21/2022 07:31:44</publishTime>
+    </File>
+    <File Include="Bootstrap/css/bootstrap.min.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="Bootstrap/js/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Bootstrap/js/bootstrap.min.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="Bootstrap/js/jquery-ui.js">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="Bootstrap/js/npm.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="chosen-sprite%402x.png">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="chosen-sprite.png">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="chosen.css">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="chosen.jquery.js">
+      <publishTime>07/23/2018 15:25:10</publishTime>
+    </File>
+    <File Include="chosen.jquery.min.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="chosen.min.css">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="ClientReport.aspx">
+      <publishTime>12/22/2022 09:48:30</publishTime>
+    </File>
+    <File Include="Complimentary.aspx">
+      <publishTime>11/11/2022 11:00:04</publishTime>
+    </File>
+    <File Include="ComplimentaryListForPosting.aspx">
+      <publishTime>11/08/2022 10:49:32</publishTime>
+    </File>
+    <File Include="CountNewCustomerByGender.aspx">
+      <publishTime>07/16/2024 14:06:08</publishTime>
+    </File>
+    <File Include="CreditCardTagging.aspx">
+      <publishTime>02/12/2021 17:05:34</publishTime>
+    </File>
+    <File Include="css/cssMaster.css">
+      <publishTime>05/02/2019 15:49:48</publishTime>
+    </File>
+    <File Include="CustomerCount.aspx">
+      <publishTime>11/18/2024 09:42:24</publishTime>
+    </File>
+    <File Include="DailyInventory.aspx">
+      <publishTime>04/29/2021 11:15:00</publishTime>
+    </File>
+    <File Include="DailySalesDetailed.aspx">
+      <publishTime>06/27/2024 13:13:40</publishTime>
+    </File>
+    <File Include="DailySalesSummary.aspx">
+      <publishTime>11/22/2021 16:47:36</publishTime>
+    </File>
+    <File Include="DataTable/datatables.min.css">
+      <publishTime>05/17/2018 10:48:32</publishTime>
+    </File>
+    <File Include="DataTable/jquery.dataTables.js">
+      <publishTime>02/12/2019 20:19:52</publishTime>
+    </File>
+    <File Include="DataTable/jquery.dataTables.min.js">
+      <publishTime>02/12/2019 20:19:52</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/26/2020 08:08:42</publishTime>
+    </File>
+    <File Include="Deliveries.aspx">
+      <publishTime>02/04/2021 07:10:36</publishTime>
+    </File>
+    <File Include="DepositTransactions.aspx">
+      <publishTime>02/19/2021 08:15:40</publishTime>
+    </File>
+    <File Include="DiscountedSales.aspx">
+      <publishTime>06/27/2024 13:50:50</publishTime>
+    </File>
+    <File Include="docsupport/chosen.png">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/init.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/jquery-1.12.4.min.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/jquery-3.2.1.min.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/oss-credit.png">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/prism.css">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/prism.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/prototype-1.7.0.0.js">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="docsupport/style.css">
+      <publishTime>06/08/2018 14:43:58</publishTime>
+    </File>
+    <File Include="DRsWithProductSales.aspx">
+      <publishTime>07/22/2024 15:42:22</publishTime>
+    </File>
+    <File Include="EncodeSales.aspx">
+      <publishTime>01/22/2025 11:34:08</publishTime>
+    </File>
+    <File Include="exlDUMP/note.txt">
+      <publishTime>02/02/2021 08:45:54</publishTime>
+    </File>
+    <File Include="exlOUT/MRF.xlsx">
+      <publishTime>03/22/2016 08:00:48</publishTime>
+    </File>
+    <File Include="exlOUT/rptHOConsumption.xlsx">
+      <publishTime>09/27/2019 12:01:36</publishTime>
+    </File>
+    <File Include="exlTMP/BotoxFillersReport.xlsx">
+      <publishTime>05/18/2017 09:06:38</publishTime>
+    </File>
+    <File Include="exlTMP/BotoxFillersReportSum.xlsx">
+      <publishTime>05/18/2017 09:15:08</publishTime>
+    </File>
+    <File Include="exlTMP/Consumption.xlsx">
+      <publishTime>06/14/2019 13:50:50</publishTime>
+    </File>
+    <File Include="exlTMP/DailyInventoryHO.xlsx">
+      <publishTime>10/28/2020 09:38:00</publishTime>
+    </File>
+    <File Include="exlTMP/Delivery_HighEnd.xlsx">
+      <publishTime>03/23/2016 09:03:50</publishTime>
+    </File>
+    <File Include="exlTMP/HOConsumption.xlsx">
+      <publishTime>09/27/2019 12:01:36</publishTime>
+    </File>
+    <File Include="exlTMP/ISSUANCES.xlsx">
+      <publishTime>09/16/2019 13:28:36</publishTime>
+    </File>
+    <File Include="exlTMP/ItemTran.xlsx">
+      <publishTime>09/19/2019 13:59:42</publishTime>
+    </File>
+    <File Include="exlTMP/Medical_Detailed.xlsx">
+      <publishTime>07/06/2017 13:56:52</publishTime>
+    </File>
+    <File Include="exlTMP/Medical_Summary.xlsx">
+      <publishTime>05/24/2019 11:43:14</publishTime>
+    </File>
+    <File Include="exlTMP/MRF.xlsx">
+      <publishTime>03/14/2016 13:40:28</publishTime>
+    </File>
+    <File Include="exlTMP/Near_Expiry.xlsx">
+      <publishTime>06/23/2016 11:09:56</publishTime>
+    </File>
+    <File Include="exlTMP/Patient_Record.xlsx">
+      <publishTime>05/18/2017 09:12:14</publishTime>
+    </File>
+    <File Include="exlTMP/perItem.xlsx">
+      <publishTime>04/26/2019 09:50:28</publishTime>
+    </File>
+    <File Include="exlTMP/perItemProduct.xlsx">
+      <publishTime>01/28/2020 13:29:54</publishTime>
+    </File>
+    <File Include="exlTMP/PivotConso.xlsx">
+      <publishTime>02/17/2020 14:09:28</publishTime>
+    </File>
+    <File Include="exlTMP/PRF.xlsx">
+      <publishTime>09/16/2019 13:32:26</publishTime>
+    </File>
+    <File Include="exlTMP/ProductConsumption.xlsx">
+      <publishTime>04/12/2017 14:12:52</publishTime>
+    </File>
+    <File Include="exlTMP/Product_Summary.xlsx">
+      <publishTime>03/23/2016 08:30:28</publishTime>
+    </File>
+    <File Include="exlTMP/REGCLINICSUPPLIES.xlsx">
+      <publishTime>05/25/2017 13:17:00</publishTime>
+    </File>
+    <File Include="exlTMP/Request.xlsx">
+      <publishTime>04/26/2019 09:30:54</publishTime>
+    </File>
+    <File Include="exlTMP/REQUESTslip_CLN.xlsx">
+      <publishTime>09/09/2016 16:26:46</publishTime>
+    </File>
+    <File Include="exlTMP/REQUESTslip_HE.xlsx">
+      <publishTime>03/23/2016 13:58:56</publishTime>
+    </File>
+    <File Include="exlTMP/REQUESTslip_MNT.xlsx">
+      <publishTime>09/09/2016 09:41:38</publishTime>
+    </File>
+    <File Include="exlTMP/REQUESTslip_OFC.xlsx">
+      <publishTime>09/09/2016 09:41:12</publishTime>
+    </File>
+    <File Include="exlTMP/rptAdjustment.xlsx">
+      <publishTime>01/20/2021 16:55:52</publishTime>
+    </File>
+    <File Include="exlTMP/rptAllBranchPerItem.xlsx">
+      <publishTime>03/12/2021 08:29:10</publishTime>
+    </File>
+    <File Include="exlTMP/rptAllPayment.xlsx">
+      <publishTime>11/23/2021 08:05:30</publishTime>
+    </File>
+    <File Include="exlTMP/rptCashPayment.xlsx">
+      <publishTime>11/10/2021 16:10:12</publishTime>
+    </File>
+    <File Include="exlTMP/rptComplimentary.xlsx">
+      <publishTime>11/14/2022 08:11:04</publishTime>
+    </File>
+    <File Include="exlTMP/rptConsultation.xlsx">
+      <publishTime>07/20/2022 09:30:50</publishTime>
+    </File>
+    <File Include="exlTMP/rptConsumption.xlsx">
+      <publishTime>08/17/2022 13:15:36</publishTime>
+    </File>
+    <File Include="exlTMP/rptCreditCard.xlsx">
+      <publishTime>03/05/2024 14:45:20</publishTime>
+    </File>
+    <File Include="exlTMP/rptCustomerCount.xlsx">
+      <publishTime>11/13/2024 14:56:56</publishTime>
+    </File>
+    <File Include="exlTMP/rptCustomerCountByGender.xlsx">
+      <publishTime>07/16/2024 13:32:10</publishTime>
+    </File>
+    <File Include="exlTMP/rptCustomerType.xlsx">
+      <publishTime>11/18/2024 10:02:04</publishTime>
+    </File>
+    <File Include="exlTMP/rptDailyInventory.xlsx">
+      <publishTime>01/28/2021 13:46:08</publishTime>
+    </File>
+    <File Include="exlTMP/rptDebitCard.xlsx">
+      <publishTime>08/02/2021 08:31:34</publishTime>
+    </File>
+    <File Include="exlTMP/rptDepositTransaction.xlsx">
+      <publishTime>08/02/2021 08:31:50</publishTime>
+    </File>
+    <File Include="exlTMP/rptDigitalPayment.xlsx">
+      <publishTime>09/08/2021 15:20:10</publishTime>
+    </File>
+    <File Include="exlTMP/rptDiscountedSales.xlsx">
+      <publishTime>06/27/2024 14:05:58</publishTime>
+    </File>
+    <File Include="exlTMP/rptDrsWithProduct.xlsx">
+      <publishTime>07/22/2024 15:57:12</publishTime>
+    </File>
+    <File Include="exlTMP/rptGiftCode.xlsx">
+      <publishTime>09/09/2021 07:38:02</publishTime>
+    </File>
+    <File Include="exlTMP/rptInactiveCustomerList.xlsx">
+      <publishTime>12/27/2022 09:58:22</publishTime>
+    </File>
+    <File Include="exlTMP/rptInvDetailed.xlsx">
+      <publishTime>12/03/2021 07:39:34</publishTime>
+    </File>
+    <File Include="exlTMP/rptInvSummary.xlsx">
+      <publishTime>01/27/2021 08:52:48</publishTime>
+    </File>
+    <File Include="exlTMP/rptItemIssuances.xlsx">
+      <publishTime>02/11/2021 15:33:08</publishTime>
+    </File>
+    <File Include="exlTMP/rptItemMasterList.xlsx">
+      <publishTime>04/24/2024 08:13:08</publishTime>
+    </File>
+    <File Include="exlTMP/rptItemMovement.xlsx">
+      <publishTime>11/16/2021 09:39:32</publishTime>
+    </File>
+    <File Include="exlTMP/rptItemReceived.xlsx">
+      <publishTime>08/02/2021 08:32:56</publishTime>
+    </File>
+    <File Include="exlTMP/rptNewCustomer.xlsx">
+      <publishTime>07/07/2022 09:07:36</publishTime>
+    </File>
+    <File Include="exlTMP/rptNewCustomerInValue.xlsx">
+      <publishTime>01/22/2025 11:41:12</publishTime>
+    </File>
+    <File Include="exlTMP/rptNewCustomerList.xlsx">
+      <publishTime>07/20/2022 07:59:48</publishTime>
+    </File>
+    <File Include="exlTMP/rptPRF.xlsx">
+      <publishTime>01/27/2021 14:45:40</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesBook.xlsx">
+      <publishTime>08/05/2021 07:43:18</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesDetailed.xlsx">
+      <publishTime>06/27/2024 13:13:02</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPerITEM.xlsx">
+      <publishTime>12/20/2024 17:17:22</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPerITEMperClient.xlsx">
+      <publishTime>02/22/2022 13:31:56</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPerSKU.xlsx">
+      <publishTime>12/20/2024 17:17:26</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPerSKUperClient.xlsx">
+      <publishTime>02/22/2022 13:31:46</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPerSubCat.xlsx">
+      <publishTime>05/12/2022 14:57:16</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesPromo.xlsx">
+      <publishTime>03/22/2024 15:39:16</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesSummary.xlsx">
+      <publishTime>07/01/2021 14:00:24</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesSummaryDateRange.xlsx">
+      <publishTime>07/01/2021 14:01:14</publishTime>
+    </File>
+    <File Include="exlTMP/rptSalesTarget.xlsx">
+      <publishTime>12/06/2021 15:09:40</publishTime>
+    </File>
+    <File Include="exlTMP/rptSessionBalance.xlsx">
+      <publishTime>06/27/2024 10:57:46</publishTime>
+    </File>
+    <File Include="exlTMP/rptStaffPerformance.xlsx">
+      <publishTime>01/09/2025 16:34:04</publishTime>
+    </File>
+    <File Include="exlTMP/rptStaffPerformanceSumm.xlsx">
+      <publishTime>03/19/2024 11:02:54</publishTime>
+    </File>
+    <File Include="exlTMP/rptUnpostedIssuances.xlsx">
+      <publishTime>08/02/2021 08:34:28</publishTime>
+    </File>
+    <File Include="exlTMP/rptVatExemptSales.xlsx">
+      <publishTime>12/20/2021 16:08:52</publishTime>
+    </File>
+    <File Include="exlTMP/RR.xlsx">
+      <publishTime>11/05/2020 12:42:30</publishTime>
+    </File>
+    <File Include="exlTMP/StockCard_Br.xlsx">
+      <publishTime>06/09/2016 13:54:58</publishTime>
+    </File>
+    <File Include="exlTMP/StockCard_HO.xlsx">
+      <publishTime>06/09/2016 14:59:10</publishTime>
+    </File>
+    <File Include="external/jquery/jquery.js">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="external/JScript1.js">
+      <publishTime>02/10/2016 09:43:44</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>02/19/2021 14:29:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/01/2021 16:21:02</publishTime>
+    </File>
+    <File Include="HomePage.aspx">
+      <publishTime>12/03/2024 13:15:02</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>03/26/2019 09:45:02</publishTime>
+    </File>
+    <File Include="images/ajax-loader.gif">
+      <publishTime>10/25/2021 08:15:08</publishTime>
+    </File>
+    <File Include="images/ajaxLoading.gif">
+      <publishTime>04/29/2015 16:11:54</publishTime>
+    </File>
+    <File Include="images/Calendar-ICON.png">
+      <publishTime>08/10/2015 11:13:00</publishTime>
+    </File>
+    <File Include="images/calendar.gif">
+      <publishTime>08/10/2015 11:17:22</publishTime>
+    </File>
+    <File Include="images/CLOSE.png">
+      <publishTime>06/29/2015 08:26:54</publishTime>
+    </File>
+    <File Include="images/color-splash.jpg">
+      <publishTime>09/19/2018 13:56:54</publishTime>
+    </File>
+    <File Include="images/dci.JPG">
+      <publishTime>03/11/2015 13:50:44</publishTime>
+    </File>
+    <File Include="images/DPI.jpeg">
+      <publishTime>06/06/2014 16:01:54</publishTime>
+    </File>
+    <File Include="images/email5_e0.gif">
+      <publishTime>12/18/2015 07:45:02</publishTime>
+    </File>
+    <File Include="images/forgotpassword.png">
+      <publishTime>12/17/2015 11:51:36</publishTime>
+    </File>
+    <File Include="images/greenline.gif">
+      <publishTime>02/16/2015 14:24:10</publishTime>
+    </File>
+    <File Include="images/logout-512.png">
+      <publishTime>07/16/2015 13:31:46</publishTime>
+    </File>
+    <File Include="images/menu-icon.png">
+      <publishTime>07/22/2015 17:07:36</publishTime>
+    </File>
+    <File Include="images/please_wait.gif">
+      <publishTime>04/23/2018 15:39:22</publishTime>
+    </File>
+    <File Include="images/ui-bg_diagonals-thick_90_eeeeee_40x40.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_15_cd0a0a_40x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_55_999999_40x100.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_75_aaaaaa_40x100.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_100_e4f1fb_1x400.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_45_0078ae_1x400.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_50_3baae3_1x400.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_55_f8da4e_1x400.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_75_79c9ec_1x400.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_80_d7ebf9_1x400.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-bg_gloss-wave_45_e14f1c_500x100.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_gloss-wave_50_6eac2c_500x100.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_gloss-wave_55_5c9ccc_500x100.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-bg_gloss-wave_75_2191c0_500x100.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-hard_100_f2f5f7_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-hard_70_000000_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-soft_100_deedf7_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-soft_25_ffef8f_1x100.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_0078ae_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_056b93_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_217bc0_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_2694e8_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_3d80b3_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-icons_444444_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/ui-icons_469bdd_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_555555_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/ui-icons_6da8d5_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_72a7cf_256x240.png">
+      <publishTime>08/18/2015 13:50:00</publishTime>
+    </File>
+    <File Include="images/ui-icons_777620_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/ui-icons_777777_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/ui-icons_cc0000_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_d8e7f3_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_e0fdff_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_f5e175_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_f7a50d_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_f9bd01_256x240.png">
+      <publishTime>07/20/2018 01:14:20</publishTime>
+    </File>
+    <File Include="images/ui-icons_fcd113_256x240.png">
+      <publishTime>10/20/2015 09:09:28</publishTime>
+    </File>
+    <File Include="images/ui-icons_ffffff_256x240.png">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="images/unauthorized.jpeg">
+      <publishTime>06/03/2014 10:01:58</publishTime>
+    </File>
+    <File Include="images/upArrow.jpg">
+      <publishTime>02/08/2021 17:00:12</publishTime>
+    </File>
+    <File Include="images/User_login.png">
+      <publishTime>09/26/2018 17:07:38</publishTime>
+    </File>
+    <File Include="InventoryReports.aspx">
+      <publishTime>12/01/2021 08:05:16</publishTime>
+    </File>
+    <File Include="Issuance.aspx">
+      <publishTime>06/30/2021 08:58:50</publishTime>
+    </File>
+    <File Include="IssuanceForPosting.aspx">
+      <publishTime>06/24/2022 13:40:22</publishTime>
+    </File>
+    <File Include="ItemMasterList.aspx">
+      <publishTime>04/24/2024 08:10:10</publishTime>
+    </File>
+    <File Include="ItemMovement.aspx">
+      <publishTime>11/16/2021 09:42:50</publishTime>
+    </File>
+    <File Include="ItemReceived.aspx">
+      <publishTime>08/02/2021 09:14:18</publishTime>
+    </File>
+    <File Include="JavaScript.js">
+      <publishTime>07/20/2018 09:27:46</publishTime>
+    </File>
+    <File Include="jquery-ui.css">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="jquery-ui.js">
+      <publishTime>01/17/2017 07:01:48</publishTime>
+    </File>
+    <File Include="jquery-ui.min.css">
+      <publishTime>07/25/2018 16:21:08</publishTime>
+    </File>
+    <File Include="jquery-ui.min.js">
+      <publishTime>02/03/2021 08:05:04</publishTime>
+    </File>
+    <File Include="jQuery/111jquery-1.12.0.min.js">
+      <publishTime>07/18/2018 11:44:58</publishTime>
+    </File>
+    <File Include="jQuery/jquery-latest.js">
+      <publishTime>07/31/2018 16:38:36</publishTime>
+    </File>
+    <File Include="jQuery/jquery.tablesorter.js">
+      <publishTime>07/31/2018 16:36:48</publishTime>
+    </File>
+    <File Include="jQuery/jquery.tablesorter.min.js">
+      <publishTime>07/31/2018 16:34:42</publishTime>
+    </File>
+    <File Include="ListCreditCard.aspx">
+      <publishTime>03/05/2024 14:52:06</publishTime>
+    </File>
+    <File Include="ListOfAdjusment.aspx">
+      <publishTime>02/02/2021 09:46:44</publishTime>
+    </File>
+    <File Include="ListOfComplimentary.aspx">
+      <publishTime>11/14/2022 08:08:38</publishTime>
+    </File>
+    <File Include="ListOfPRF.aspx">
+      <publishTime>02/02/2021 09:43:02</publishTime>
+    </File>
+    <File Include="LoginPage.aspx">
+      <publishTime>05/16/2025 13:20:54</publishTime>
+    </File>
+    <File Include="MonthlyPosting.aspx">
+      <publishTime>02/06/2021 15:57:14</publishTime>
+    </File>
+    <File Include="NewCustomersCount.aspx">
+      <publishTime>12/21/2022 16:28:34</publishTime>
+    </File>
+    <File Include="NewCustomersInValue.aspx">
+      <publishTime>01/06/2023 14:58:52</publishTime>
+    </File>
+    <File Include="NSConversion.aspx">
+      <publishTime>01/13/2025 08:51:52</publishTime>
+    </File>
+    <File Include="OfficialReceipt.aspx">
+      <publishTime>08/09/2021 15:34:22</publishTime>
+    </File>
+    <File Include="OnGoing.aspx">
+      <publishTime>02/02/2021 09:52:42</publishTime>
+    </File>
+    <File Include="PatientConsumption.aspx">
+      <publishTime>04/24/2019 16:03:02</publishTime>
+    </File>
+    <File Include="PostedReceipt.aspx">
+      <publishTime>03/10/2021 13:46:30</publishTime>
+    </File>
+    <File Include="PRF.aspx">
+      <publishTime>12/03/2024 13:12:20</publishTime>
+    </File>
+    <File Include="PRFListForPosting.aspx">
+      <publishTime>12/03/2024 13:19:52</publishTime>
+    </File>
+    <File Include="PrintIssueSlip.aspx">
+      <publishTime>03/04/2021 15:52:06</publishTime>
+    </File>
+    <File Include="ProcessEndOfDay.aspx">
+      <publishTime>03/21/2022 07:36:18</publishTime>
+    </File>
+    <File Include="RecordComplimentary.aspx">
+      <publishTime>05/31/2022 08:13:26</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>06/24/2022 14:27:22</publishTime>
+    </File>
+    <File Include="ReportAllPaymentType.aspx">
+      <publishTime>11/23/2021 08:06:14</publishTime>
+    </File>
+    <File Include="ReportCash.aspx">
+      <publishTime>11/10/2021 16:40:12</publishTime>
+    </File>
+    <File Include="ReportDebitCard.aspx">
+      <publishTime>11/10/2021 17:16:48</publishTime>
+    </File>
+    <File Include="ReportDigitalPayment.aspx">
+      <publishTime>11/10/2021 15:35:58</publishTime>
+    </File>
+    <File Include="ReportGC.aspx">
+      <publishTime>12/19/2022 16:43:30</publishTime>
+    </File>
+    <File Include="ReportGiftCode.aspx">
+      <publishTime>09/09/2021 07:19:52</publishTime>
+    </File>
+    <File Include="ReportIssuances.aspx">
+      <publishTime>03/12/2021 08:03:30</publishTime>
+    </File>
+    <File Include="Reports/IssueSlip.rpt">
+      <publishTime>03/09/2021 13:23:38</publishTime>
+    </File>
+    <File Include="Reports/OfficialReceipt.rpt">
+      <publishTime>07/16/2021 13:47:56</publishTime>
+    </File>
+    <File Include="Reports/ORHeader.rpt">
+      <publishTime>07/23/2021 07:59:26</publishTime>
+    </File>
+    <File Include="Reports/ORIGOfficialReceipt.rpt">
+      <publishTime>03/10/2021 08:41:04</publishTime>
+    </File>
+    <File Include="Reports/PaymentDetail.rpt">
+      <publishTime>03/10/2021 08:43:58</publishTime>
+    </File>
+    <File Include="Reports/PostedReceipt.rpt">
+      <publishTime>08/10/2021 08:06:34</publishTime>
+    </File>
+    <File Include="Reports/XReadingDownPayment.rpt">
+      <publishTime>08/09/2021 16:06:32</publishTime>
+    </File>
+    <File Include="Reports/xReadPosted.rpt">
+      <publishTime>08/09/2021 16:06:34</publishTime>
+    </File>
+    <File Include="Reports/xReadUnposted.rpt">
+      <publishTime>03/16/2021 08:32:08</publishTime>
+    </File>
+    <File Include="Reports/zReadPosted.rpt">
+      <publishTime>08/06/2021 13:49:28</publishTime>
+    </File>
+    <File Include="Reports/zReadUnposted.rpt">
+      <publishTime>08/06/2021 13:28:22</publishTime>
+    </File>
+    <File Include="ReportSalesReturn.aspx">
+      <publishTime>08/02/2021 08:40:08</publishTime>
+    </File>
+    <File Include="ReportVATExempted.aspx">
+      <publishTime>12/20/2021 16:12:10</publishTime>
+    </File>
+    <File Include="RePrintXandZ.aspx">
+      <publishTime>08/10/2021 09:19:18</publishTime>
+    </File>
+    <File Include="ReprintXReading.aspx">
+      <publishTime>08/12/2021 08:13:50</publishTime>
+    </File>
+    <File Include="ReprintZReading.aspx">
+      <publishTime>08/05/2021 13:20:44</publishTime>
+    </File>
+    <File Include="rptActualConsumptions.aspx">
+      <publishTime>08/17/2022 10:34:34</publishTime>
+    </File>
+    <File Include="rptConsultation.aspx">
+      <publishTime>07/20/2022 09:11:42</publishTime>
+    </File>
+    <File Include="rptSessionBalance.aspx">
+      <publishTime>06/27/2024 10:38:36</publishTime>
+    </File>
+    <File Include="SalesBook.aspx">
+      <publishTime>08/10/2021 09:56:12</publishTime>
+    </File>
+    <File Include="SalesForTheDay.aspx">
+      <publishTime>05/30/2024 13:17:22</publishTime>
+    </File>
+    <File Include="SalesPerCategory.aspx">
+      <publishTime>05/08/2023 10:19:18</publishTime>
+    </File>
+    <File Include="SalesPerSKU.aspx">
+      <publishTime>12/20/2024 17:07:48</publishTime>
+    </File>
+    <File Include="SalesPromo.aspx">
+      <publishTime>03/22/2024 15:28:30</publishTime>
+    </File>
+    <File Include="SalesReturn.aspx">
+      <publishTime>03/23/2021 09:29:50</publishTime>
+    </File>
+    <File Include="SalesReturnReceipt.aspx">
+      <publishTime>03/17/2021 10:55:46</publishTime>
+    </File>
+    <File Include="SalesTarget.aspx">
+      <publishTime>12/06/2021 15:19:54</publishTime>
+    </File>
+    <File Include="SetupDiscount.aspx">
+      <publishTime>06/28/2021 11:08:02</publishTime>
+    </File>
+    <File Include="setupEmployee.aspx">
+      <publishTime>01/25/2022 14:04:18</publishTime>
+    </File>
+    <File Include="setupItem.aspx">
+      <publishTime>03/19/2024 11:20:14</publishTime>
+    </File>
+    <File Include="SetupSalesTarget.aspx">
+      <publishTime>07/07/2021 11:47:46</publishTime>
+    </File>
+    <File Include="SignInPage.aspx">
+      <publishTime>04/30/2019 13:29:56</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>05/15/2025 14:47:25</publishTime>
+    </File>
+    <File Include="SpecialDiscount.aspx">
+      <publishTime>07/07/2021 09:22:10</publishTime>
+    </File>
+    <File Include="StaffPerformance.aspx">
+      <publishTime>01/09/2025 16:29:14</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>10/20/2015 08:50:58</publishTime>
+    </File>
+    <File Include="TransactionQuery.aspx">
+      <publishTime>08/02/2021 08:40:08</publishTime>
+    </File>
+    <File Include="UnauthorizedPage.aspx">
+      <publishTime>02/03/2021 16:46:36</publishTime>
+    </File>
+    <File Include="ViewCompliTransaction.aspx">
+      <publishTime>05/30/2022 16:02:26</publishTime>
+    </File>
+    <File Include="ViewTransaction.aspx">
+      <publishTime>03/05/2024 14:26:26</publishTime>
+    </File>
+    <File Include="ViewTransactionPosted.aspx">
+      <publishTime>03/05/2024 14:28:34</publishTime>
+    </File>
+    <File Include="ViewTransactionReturn.aspx">
+      <publishTime>03/01/2021 10:57:44</publishTime>
+    </File>
+    <File Include="VoidTransaction.aspx">
+      <publishTime>02/02/2021 15:42:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/16/2025 13:41:33</publishTime>
+    </File>
+    <File Include="XReading.aspx">
+      <publishTime>03/12/2021 16:09:04</publishTime>
+    </File>
+    <File Include="ZReading.aspx">
+      <publishTime>03/15/2021 15:48:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
