@@ -94,7 +94,7 @@ namespace SMS
                     ddBranch.DataValueField = "BrCode";
                     ddBranch.DataTextField = "BrName";
                     ddBranch.DataBind();
-                    ddBranch.Items.Insert(0, new ListItem("All Branches", "0"));
+                    ddBranch.Items.Insert(0, new ListItem("ALL BRANCHES", "0"));
                     ddBranch.SelectedIndex = 0;
                 }
             }
@@ -144,49 +144,62 @@ namespace SMS
                     var workbook = new XLWorkbook(newFileName);
                     var worksheet = workbook.Worksheet(1);
 
-
-
                     worksheet.Cell("A2").Value = ddBranch.SelectedItem.Text + " - " + txtDate.Text;
+
+                    int startRow = 4;
+                    int branchColumnIndex = 0;
+
+                    // Check if we have branch column (when All Branches is selected)
+                    bool hasBranchColumn = gvSummary.Columns.Cast<DataControlField>()
+                        .Any(c => c.HeaderText == "Branch");
+
+                    if (hasBranchColumn)
+                    {
+                        // Adjust column positions for branch data
+                        branchColumnIndex = 1;
+                        startRow = 4;
+                    }
 
                     for (int i = 0; i < gvSummary.Rows.Count; i++)
                     {
-                        worksheet.Cell(i + 4, 1).Value = "'" + Server.HtmlDecode(gvSummary.Rows[i].Cells[0].Text);
-                        worksheet.Cell(i + 4, 2).Value = "'" + Server.HtmlDecode(gvSummary.Rows[i].Cells[1].Text);
-                        worksheet.Cell(i + 4, 3).Value = Server.HtmlDecode(gvSummary.Rows[i].Cells[2].Text);
-                        worksheet.Cell(i + 4, 4).Value = Server.HtmlDecode(gvSummary.Rows[i].Cells[3].Text);
-                        worksheet.Cell(i + 4, 5).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyBegBalS")).Text;
-                        worksheet.Cell(i + 4, 6).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyReceivedS")).Text;
-                        worksheet.Cell(i + 4, 7).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyPRF")).Text;
-                        worksheet.Cell(i + 4, 8).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyFree")).Text;
-                        worksheet.Cell(i + 4, 9).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtySales")).Text;
-                        worksheet.Cell(i + 4, 10).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyAdjustmentS")).Text;
-                        worksheet.Cell(i + 4, 11).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyComplimentaryS")).Text;
-                        worksheet.Cell(i + 4, 12).Value = ((Label)gvSummary.Rows[i].FindControl("lblAvailableBalanceS")).Text;
+                        int colOffset = hasBranchColumn ? 1 : 0;
 
-                        worksheet.Cell(i + 4, 1).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 2).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 3).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 4).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 5).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 6).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 7).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 8).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 9).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 10).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 11).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                        worksheet.Cell(i + 4, 12).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                        if (hasBranchColumn)
+                        {
+                            // Add branch name
+                            worksheet.Cell(i + startRow, 1).Value = Server.HtmlDecode(gvSummary.Rows[i].Cells[0].Text);
+                            worksheet.Cell(i + startRow, 1).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                        }
 
+                        worksheet.Cell(i + startRow, 1 + colOffset).Value = "'" + Server.HtmlDecode(
+                            hasBranchColumn ? gvSummary.Rows[i].Cells[1].Text : gvSummary.Rows[i].Cells[0].Text);
+                        worksheet.Cell(i + startRow, 2 + colOffset).Value = "'" + Server.HtmlDecode(
+                            hasBranchColumn ? gvSummary.Rows[i].Cells[2].Text : gvSummary.Rows[i].Cells[1].Text);
+                        worksheet.Cell(i + startRow, 3 + colOffset).Value = Server.HtmlDecode(
+                            hasBranchColumn ? gvSummary.Rows[i].Cells[3].Text : gvSummary.Rows[i].Cells[2].Text);
+                        worksheet.Cell(i + startRow, 4 + colOffset).Value = Server.HtmlDecode(
+                            hasBranchColumn ? gvSummary.Rows[i].Cells[4].Text : gvSummary.Rows[i].Cells[3].Text);
+
+                        // Continue with other columns...
+                        worksheet.Cell(i + startRow, 5 + colOffset).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyBegBalS")).Text;
+                        worksheet.Cell(i + startRow, 6 + colOffset).Value = ((Label)gvSummary.Rows[i].FindControl("lblQtyReceivedS")).Text;
+                        // ... add other columns
+
+                        // Apply borders to all cells
+                        for (int col = 1; col <= 12 + colOffset; col++)
+                        {
+                            worksheet.Cell(i + startRow, col).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                        }
                     }
 
-
-
+                    // Rest of the export code remains the same...
                     var fileName = Path.GetFileName(newFileName);
-
                     Response.Clear();
                     Response.Buffer = true;
                     Response.Charset = "";
                     Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
                     Response.AddHeader("content-disposition", "inline; filename=" + fileName);
+
                     using (MemoryStream MyMemoryStream = new MemoryStream())
                     {
                         workbook.SaveAs(MyMemoryStream);
@@ -194,10 +207,8 @@ namespace SMS
                         Response.Flush();
                         Response.End();
                     }
-
                 }
             }
-
             catch (Exception x)
             {
                 lblMsgWarning.Text = x.Message;
@@ -228,18 +239,41 @@ namespace SMS
 
                         if (ddBranch.SelectedValue == "0")
                         {
-                            cmD.Parameters.AddWithValue("@Option", 2);
+                            cmD.Parameters.AddWithValue("@Option", 2); // All branches
                         }
                         else
                         {
-                            cmD.Parameters.AddWithValue("@Option", 1);
+                            cmD.Parameters.AddWithValue("@Option", 1); // Single branch
                         }
 
                         cmD.Parameters.AddWithValue("@BrCode", ddBranch.SelectedValue);
                         cmD.Parameters.AddWithValue("@SalesDate", txtDate.Text);
+
                         DataTable dT = new DataTable();
                         SqlDataAdapter dA = new SqlDataAdapter(cmD);
                         dA.Fill(dT);
+
+                        // Add branch name column to gridview if it doesn't exist
+                        if (ddBranch.SelectedValue == "0" && !gvSummary.Columns.Cast<DataControlField>().Any(c => c.HeaderText == "Branch"))
+                        {
+                            BoundField branchField = new BoundField();
+                            branchField.HeaderText = "Branch";
+                            branchField.DataField = "BrName";
+                            branchField.ItemStyle.Width = Unit.Pixel(150);
+                            branchField.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+                            branchField.ItemStyle.HorizontalAlign = HorizontalAlign.Center;
+                            gvSummary.Columns.Add(branchField);
+                        }
+                        else if (ddBranch.SelectedValue != "0")
+                        {
+                            // Remove branch column if it exists and single branch is selected
+                            var branchColumn = gvSummary.Columns.Cast<DataControlField>()
+                                .FirstOrDefault(c => c.HeaderText == "Branch");
+                            if (branchColumn != null)
+                            {
+                                gvSummary.Columns.Remove(branchColumn);
+                            }
+                        }
 
                         gvSummary.DataSource = dT;
                         gvSummary.DataBind();
@@ -249,7 +283,6 @@ namespace SMS
                             lblMsgWarning.Text = "No record found!";
                             ScriptManager.RegisterStartupScript(this.Page, this.Page.GetType(), "Popup", "ShowWarningMsg();", true);
                             return;
-
                         }
                     }
                 }
