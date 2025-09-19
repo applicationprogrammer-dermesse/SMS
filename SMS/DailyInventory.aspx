@@ -66,7 +66,7 @@
                 <div class="row" style="margin-bottom: 10px;">
                     <div class="col-sm-12">
                         <div class="col-sm-2 text-right">
-                            Branch :
+                            Date :
                         </div>
                         <div class="col-sm-10">
                             <div class="input-group">
