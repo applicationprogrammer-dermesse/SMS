@@ -90,7 +90,7 @@ namespace SMS
                     ddBranch.DataValueField = "BrCode";
                     ddBranch.DataTextField = "BrName";
                     ddBranch.DataBind();
-                    ddBranch.Items.Insert(0, new ListItem("Select Branch", "0"));
+                    ddBranch.Items.Insert(0, new ListItem("Consolidated", "0"));
                     ddBranch.SelectedIndex = 0;
                 }
             }
@@ -154,14 +154,16 @@ namespace SMS
                         worksheet.Cell(i + 5, 1).Value = Server.HtmlDecode(gvItemMovement.Rows[i].Cells[0].Text);
                         worksheet.Cell(i + 5, 2).Value = "'" + Server.HtmlDecode(gvItemMovement.Rows[i].Cells[1].Text);
                         worksheet.Cell(i + 5, 3).Value = Server.HtmlDecode(gvItemMovement.Rows[i].Cells[2].Text);
-                        worksheet.Cell(i + 5, 4).Value = ((Label)gvItemMovement.Rows[i].FindControl("lblvQty")).Text;
-                        worksheet.Cell(i + 5, 5).Value = Server.HtmlDecode(gvItemMovement.Rows[i].Cells[4].Text);
+                        worksheet.Cell(i + 5, 4).Value = Server.HtmlDecode(gvItemMovement.Rows[i].Cells[3].Text);
+                        worksheet.Cell(i + 5, 5).Value = ((Label)gvItemMovement.Rows[i].FindControl("lblvQty")).Text;
+                        worksheet.Cell(i + 5, 6).Value = "'" + Server.HtmlDecode(gvItemMovement.Rows[i].Cells[5].Text);
                         
                         worksheet.Cell(i + 5, 1).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
                         worksheet.Cell(i + 5, 2).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
                         worksheet.Cell(i + 5, 3).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
                         worksheet.Cell(i + 5, 4).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
                         worksheet.Cell(i + 5, 5).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                        worksheet.Cell(i + 5, 6).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
 
                     }
 

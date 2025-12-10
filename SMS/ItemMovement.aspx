@@ -137,9 +137,9 @@
                 <div class="col-sm-10">
                     <div class="input-group">
                         <asp:DropDownList ID="ddBranch" runat="server" Width="245px" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddBranch_SelectedIndexChanged"></asp:DropDownList>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" InitialValue="0"
+                        <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" InitialValue="0"
                             ControlToValidate="ddBranch" Display="Dynamic" ValidationGroup="grpIss" ForeColor="Red"
-                            ErrorMessage="Select branch"></asp:RequiredFieldValidator>
+                            ErrorMessage="Select branch"></asp:RequiredFieldValidator>--%>
                     </div>
                 </div>
             </div>
@@ -183,6 +183,11 @@
                 <div class="col-sm-9">
                     <asp:GridView ID="gvItemMovement" Width="99%" runat="server" AutoGenerateColumns="false" class="table table-striped table-bordered table-hover">
                         <Columns>
+
+                            <asp:BoundField HeaderText="Branch" DataField="BrName" ReadOnly="True"  ItemStyle-Width="25%" HeaderStyle-VerticalAlign="Middle" HeaderStyle-HorizontalAlign="Center">
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            </asp:BoundField>
 
                             <asp:BoundField HeaderText="Process" DataField="Process" ReadOnly="True" ItemStyle-Width="15%" HeaderStyle-VerticalAlign="Middle" HeaderStyle-HorizontalAlign="Center">
                                 <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
